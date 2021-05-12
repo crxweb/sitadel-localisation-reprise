@@ -1,0 +1,1 @@
+UPDATE frontend_localisation_villes_reprise SET ville_newId = NULL WHERE ville_newId = 0;

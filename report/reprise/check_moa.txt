@@ -1,0 +1,72 @@
+Ne sont listées que les entrées dont l'ancien et le nouveau NCCENR diffèrent
+
++-----+----------+---------------+---------------+--------------------------+-----------------------------+
+|     |   loc_id |   old_villeId |   new_villeId | old_NCCENR               | new_NCCENR                  |
+|-----+----------+---------------+---------------+--------------------------+-----------------------------|
+|   7 |       10 |         37556 |         31667 | Paris 08                 | Paris 8e Arrondissement     |
+|  14 |       19 |         29380 |         33016 | Chesnay                  | Chesnay-Rocquencourt        |
+|  22 |       28 |         37558 |         31669 | Paris 10                 | Paris 10e Arrondissement    |
+|  43 |       60 |         29380 |         33016 | Chesnay                  | Chesnay-Rocquencourt        |
+|  45 |       68 |         29399 |         33038 | Epône                    | Épône                       |
+|  68 |      104 |         37558 |         31669 | Paris 10                 | Paris 10e Arrondissement    |
+|  76 |      124 |         33401 |         37487 | Ecouen                   | Écouen                      |
+|  78 |      128 |         36589 |         31671 | Paris 12e arrondissement | Paris 12e Arrondissement    |
+|  93 |      165 |         33401 |         37487 | Ecouen                   | Écouen                      |
+|  97 |      180 |         33401 |         37487 | Ecouen                   | Écouen                      |
+| 110 |      233 |         33409 |         37495 | Ezanville                | Ézanville                   |
+| 124 |      290 |         31625 |         35585 | Ceaux-en-Couhé           | Valence-en-Poitou           |
+| 138 |      334 |         36583 |         31665 | Paris 6e arrondissement  | Paris 6e Arrondissement     |
+| 157 |      421 |         33404 |         37490 | Epiais-lès-Louvres       | Épiais-lès-Louvres          |
+| 158 |      422 |         33404 |         37490 | Epiais-lès-Louvres       | Épiais-lès-Louvres          |
+| 162 |      435 |         36597 |         31679 | Paris 20e arrondissement | Paris 20e Arrondissement    |
+| 169 |      456 |         18515 |         21022 | Château-Gontier          | Château-Gontier-sur-Mayenne |
+| 185 |      525 |         37559 |         31670 | Paris 11                 | Paris 11e Arrondissement    |
+| 195 |      550 |         37550 |         31661 | Paris 02                 | Paris 2e Arrondissement     |
+| 223 |      610 |         32655 |         36674 | Egriselles-le-Bocage     | Égriselles-le-Bocage        |
+| 227 |      614 |         37553 |         31664 | Paris 05                 | Paris 5e Arrondissement     |
+| 228 |      615 |         37552 |         31663 | Paris 04                 | Paris 4e Arrondissement     |
+| 229 |      616 |         37553 |         31664 | Paris 05                 | Paris 5e Arrondissement     |
+| 230 |      617 |         37553 |         31664 | Paris 05                 | Paris 5e Arrondissement     |
+| 233 |      628 |         33409 |         37495 | Ezanville                | Ézanville                   |
+| 243 |      643 |         37553 |         31664 | Paris 05                 | Paris 5e Arrondissement     |
+| 250 |      652 |         33404 |         37490 | Epiais-lès-Louvres       | Épiais-lès-Louvres          |
+| 268 |      678 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 269 |      679 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 270 |      680 |         37565 |         31676 | Paris 17                 | Paris 17e Arrondissement    |
+| 272 |      682 |         37558 |         31669 | Paris 10                 | Paris 10e Arrondissement    |
+| 278 |      692 |         37557 |         31668 | Paris 09                 | Paris 9e Arrondissement     |
+| 284 |      701 |         37568 |         31679 | Paris 20                 | Paris 20e Arrondissement    |
+| 294 |      716 |         37565 |         31676 | Paris 17                 | Paris 17e Arrondissement    |
+| 295 |      718 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 298 |      722 |         37561 |         31672 | Paris 13                 | Paris 13e Arrondissement    |
+| 301 |      726 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 302 |      727 |         37564 |         31675 | Paris 16                 | Paris 16e Arrondissement    |
+| 303 |      729 |         37561 |         31672 | Paris 13                 | Paris 13e Arrondissement    |
+| 304 |      730 |         37564 |         31675 | Paris 16                 | Paris 16e Arrondissement    |
+| 305 |      731 |         37560 |         31671 | Paris 12                 | Paris 12e Arrondissement    |
+| 306 |      732 |         38131 |         29497 | Lyon 03                  | Lyon 3e Arrondissement      |
+| 322 |      756 |         37550 |         31661 | Paris 02                 | Paris 2e Arrondissement     |
+| 323 |      757 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 324 |      758 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 325 |      759 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 326 |      762 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 329 |      769 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 330 |      770 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 331 |      771 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 332 |      772 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 333 |      773 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 337 |      778 |         38131 |         29497 | Lyon 03                  | Lyon 3e Arrondissement      |
+| 340 |      784 |         29733 |         33394 | Paizay-le-Tort           | Melle                       |
+| 341 |      785 |         37560 |         31671 | Paris 12                 | Paris 12e Arrondissement    |
+| 350 |      795 |         37556 |         31667 | Paris 08                 | Paris 8e Arrondissement     |
+| 354 |      799 |          6047 |          6699 | Nohant-en-GraÁay         | Nohant-en-Graçay            |
+| 357 |      802 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 372 |      822 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 373 |      823 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 375 |      839 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 376 |      840 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
+| 378 |      845 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 379 |      846 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine        |
+| 380 |      847 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement    |
++-----+----------+---------------+---------------+--------------------------+-----------------------------+
+

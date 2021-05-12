@@ -1,0 +1,103 @@
+CODE OFFICIEL GEOGRAPHIQUE
+Source : INSEE
+Date : 01/01/2021
+Lien: https://www.insee.fr/fr/information/5057840
+Encodage: UTF-8
+
+
+Communes
+------------
+Liste des communes, arrondissements municipaux, communes déléguées et communes associées au 1er janvier 2021,
+avec le code des niveaux supérieurs (canton ou pseudo-canton, département, région)
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 37742 entries, 0 to 37741
+Data columns (total 12 columns):
+ #   Column     Non-Null Count  Dtype
+---  ------     --------------  -----
+ 0   TYPECOM    37742 non-null  object
+ 1   COM        37742 non-null  object
+ 2   REG        35010 non-null  object
+ 3   DEP        35010 non-null  object
+ 4   CTCD       35010 non-null  object
+ 5   ARR        34993 non-null  object
+ 6   TNCC       37742 non-null  object
+ 7   NCC        37742 non-null  object
+ 8   NCCENR     37742 non-null  object
+ 9   LIBELLE    37742 non-null  object
+ 10  CAN        34865 non-null  object
+ 11  COMPARENT  2777 non-null   object
+dtypes: object(12)
+memory usage: 3.5+ MB
+
+
+       TYPECOM    COM    REG    DEP   CTCD    ARR   TNCC            NCC  \
+count    37742  37742  35010  35010  35010  34993  37742          37742
+unique       4  37122     18    101    101    332      8          34826
+top        COM  41059     44     62    62D    621      0  SAINT SAUVEUR
+freq     34965      2   5121    890    890    357  30904             13
+
+               NCCENR        LIBELLE    CAN COMPARENT
+count           37742          37742  34865      2777
+unique          34905          35084   2039      1004
+top     Saint-Sauveur  Saint-Sauveur   5723     14371
+freq               13             13    135        22
+
+
+dico_cog_communes = {
+    'TYPECOM': {
+        'desc': 'Type de commune',
+        'longueur': 4,
+        'values': [
+            {'code': 'COM', 'libelle': 'Commune'},
+            {'code': 'COMA', 'libelle': 'Commune associée'},
+            {'code': 'COMD', 'libelle': 'Commune déléguée'},
+            {'code': 'ARM', 'libelle': 'Arrondissement municipal'},
+        ],
+    },
+    'COM': {
+        'desc': 'Code commune',
+        'longueur': 5,
+    },
+    'REG': {
+        'desc': 'Code région',
+        'longueur': 2,
+    },
+    'DEP': {
+        'desc': 'Code département',
+        'longueur': 3,
+    },
+    'CTCD': {
+        'desc': 'Code de la collectivité territoriale ayant les compétences départementales',
+        'longueur': 4,
+    },
+    'ARR': {
+        'desc': 'Code arrondissement',
+        'longueur': 4,
+    },
+    'TNCC': {
+        'desc': 'Type de nom en clair',
+        'longueur': 1,
+    },
+    'NCC': {
+        'desc': 'Nom en clair (majuscules)',
+        'longueur': 200,
+    },
+    'NCCENR': {
+        'desc': 'Nom en clair (typographie riche)',
+        'longueur': 200,
+    },
+    'LIBELLE': {
+        'desc': 'Nom en clair (typographie riche) avec article',
+        'longueur': 200,
+    },
+    'CAN': {
+        'desc': 'Code canton. Pour les communes « multi-cantonales » code décliné de 99 à 90 (pseudo-canton) ou de 89 à 80 (communes nouvelles)',
+        'longueur': 5,
+    },
+    'COMPARENT': {
+        'desc': 'Code de la commune parente pour les arrondissements municipaux et les communes associées ou déléguées.',
+        'longueur': 5,
+    },
+
+}

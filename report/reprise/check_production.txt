@@ -1,0 +1,91 @@
+Ne sont listées que les entrées dont l'ancien et le nouveau NCCENR diffèrent
+
++-----+----------+---------------+---------------+--------------------------+--------------------------+
+|     |   loc_id |   old_villeId |   new_villeId | old_NCCENR               | new_NCCENR               |
+|-----+----------+---------------+---------------+--------------------------+--------------------------|
+|   2 |        3 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|   5 |        6 |         37560 |         31671 | Paris 12                 | Paris 12e Arrondissement |
+|  17 |       19 |         33404 |         37490 | Epiais-lès-Louvres       | Épiais-lès-Louvres       |
+|  18 |       23 |         33404 |         37490 | Epiais-lès-Louvres       | Épiais-lès-Louvres       |
+|  20 |       27 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+|  21 |       29 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+|  23 |       33 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  24 |       35 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  27 |       43 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  28 |       47 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  52 |       95 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  68 |      126 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  76 |      149 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  82 |      161 |         36596 |         31678 | Paris 19e arrondissement | Paris 19e Arrondissement |
+|  83 |      165 |         36596 |         31678 | Paris 19e arrondissement | Paris 19e Arrondissement |
+|  87 |      171 |         33401 |         37487 | Ecouen                   | Écouen                   |
+|  88 |      175 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 121 |      244 |         36589 |         31671 | Paris 12e arrondissement | Paris 12e Arrondissement |
+| 162 |      328 |         37568 |         31679 | Paris 20                 | Paris 20e Arrondissement |
+| 179 |      363 |         36588 |         31670 | Paris 11e arrondissement | Paris 11e Arrondissement |
+| 196 |      408 |         33409 |         37495 | Ezanville                | Ézanville                |
+| 199 |      420 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 246 |      527 |         36582 |         31664 | Paris 5e arrondissement  | Paris 5e Arrondissement  |
+| 247 |      529 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 248 |      530 |         36582 |         31664 | Paris 5e arrondissement  | Paris 5e Arrondissement  |
+| 250 |      532 |         36582 |         31664 | Paris 5e arrondissement  | Paris 5e Arrondissement  |
+| 257 |      551 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 271 |      587 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 279 |      615 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 282 |      626 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 298 |      681 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+| 299 |      686 |         37569 |         31675 | Paris 16                 | Paris 16e Arrondissement |
+| 300 |      687 |         37569 |         31675 | Paris 16                 | Paris 16e Arrondissement |
+| 302 |      697 |         33270 |         37355 | Epinay-sur-Seine         | Épinay-sur-Seine         |
+| 305 |      709 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 322 |      765 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 344 |      810 |         33404 |         37490 | Epiais-lès-Louvres       | Épiais-lès-Louvres       |
+| 423 |      994 |         36593 |         31675 | Paris 16e arrondissement | Paris 16e Arrondissement |
+| 425 |      996 |         37560 |         31671 | Paris 12                 | Paris 12e Arrondissement |
+| 474 |     1110 |         22095 |         24964 | Saint-Martin-le-Noeud    | Saint-Martin-le-Nœud     |
+| 475 |     1111 |         22095 |         24964 | Saint-Martin-le-Noeud    | Saint-Martin-le-Nœud     |
+| 476 |     1112 |         22095 |         24964 | Saint-Martin-le-Noeud    | Saint-Martin-le-Nœud     |
+| 477 |     1113 |         22095 |         24964 | Saint-Martin-le-Noeud    | Saint-Martin-le-Nœud     |
+| 481 |     1122 |         37569 |         31675 | Paris 16                 | Paris 16e Arrondissement |
+| 506 |     1184 |         36597 |         31679 | Paris 20e arrondissement | Paris 20e Arrondissement |
+| 511 |     1195 |         36593 |         31675 | Paris 16e arrondissement | Paris 16e Arrondissement |
+| 512 |     1196 |         36583 |         31665 | Paris 6e arrondissement  | Paris 6e Arrondissement  |
+| 513 |     1197 |         36593 |         31675 | Paris 16e arrondissement | Paris 16e Arrondissement |
+| 514 |     1200 |         33401 |         37487 | Ecouen                   | Écouen                   |
+| 518 |     1212 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+| 519 |     1215 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+| 521 |     1218 |         36590 |         31672 | Paris 13e arrondissement | Paris 13e Arrondissement |
+| 522 |     1220 |         37561 |         31672 | Paris 13                 | Paris 13e Arrondissement |
+| 524 |     1225 |         36593 |         31675 | Paris 16e arrondissement | Paris 16e Arrondissement |
+| 525 |     1227 |         36597 |         31679 | Paris 20e arrondissement | Paris 20e Arrondissement |
+| 526 |     1228 |         36597 |         31679 | Paris 20e arrondissement | Paris 20e Arrondissement |
+| 527 |     1229 |         36597 |         31679 | Paris 20e arrondissement | Paris 20e Arrondissement |
+| 528 |     1231 |         36597 |         31679 | Paris 20e arrondissement | Paris 20e Arrondissement |
+| 531 |     1242 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+| 532 |     1244 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+| 536 |     1253 |         36584 |         31666 | Paris 7e arrondissement  | Paris 7e Arrondissement  |
+| 537 |     1254 |         36584 |         31666 | Paris 7e arrondissement  | Paris 7e Arrondissement  |
+| 545 |     1280 |         36592 |         31674 | Paris 15e arrondissement | Paris 15e Arrondissement |
+| 546 |     1281 |         36584 |         31666 | Paris 7e arrondissement  | Paris 7e Arrondissement  |
+| 556 |     1302 |         37554 |         31665 | Paris 06                 | Paris 6e Arrondissement  |
+| 564 |     1324 |         37554 |         31665 | Paris 06                 | Paris 6e Arrondissement  |
+| 577 |     1359 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 579 |     1361 |         37561 |         31672 | Paris 13                 | Paris 13e Arrondissement |
+| 587 |     1388 |         37555 |         31666 | Paris 07                 | Paris 7e Arrondissement  |
+| 600 |     1419 |         36589 |         31671 | Paris 12e arrondissement | Paris 12e Arrondissement |
+| 613 |     1468 |         36580 |         31662 | Paris 3e arrondissement  | Paris 3e Arrondissement  |
+| 624 |     1497 |          7155 |          8030 | Hermitage-Lorge          | Plœuc-L'Hermitage        |
+| 625 |     1498 |         36593 |         31675 | Paris 16e arrondissement | Paris 16e Arrondissement |
+| 627 |     1503 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 628 |     1504 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 629 |     1505 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine     |
+| 630 |     1506 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 631 |     1507 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine     |
+| 635 |     1511 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine     |
+| 636 |     1512 |         33290 |         37375 | Saint-Ouen               | Saint-Ouen-sur-Seine     |
+| 638 |     1514 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 639 |     1515 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 640 |     1516 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
+| 645 |     1555 |         37563 |         31674 | Paris 15                 | Paris 15e Arrondissement |
++-----+----------+---------------+---------------+--------------------------+--------------------------+
+

@@ -1,0 +1,14 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 101 entries, 0 to 100
+Data columns (total 7 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   DEP       101 non-null    object
+ 1   REG       101 non-null    int64
+ 2   CHEFLIEU  101 non-null    object
+ 3   TNCC      101 non-null    int64
+ 4   NCC       101 non-null    object
+ 5   NCCENR    101 non-null    object
+ 6   LIBELLE   101 non-null    object
+dtypes: int64(2), object(5)
+memory usage: 5.6+ KB

@@ -1,0 +1,22 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 37742 entries, 0 to 37741
+Data columns (total 15 columns):
+ #   Column             Non-Null Count  Dtype
+---  ------             --------------  -----
+ 0   ville_id           37742 non-null  int64
+ 1   ville_TYPECOM      37742 non-null  object
+ 2   ville_COM          37742 non-null  object
+ 3   ville_REG          35010 non-null  float64
+ 4   ville_DEP          35010 non-null  object
+ 5   ville_CTCD         35010 non-null  object
+ 6   ville_ARR          34993 non-null  object
+ 7   ville_TNCC         37742 non-null  int64
+ 8   ville_NCC          37742 non-null  object
+ 9   ville_NCCENR       37742 non-null  object
+ 10  ville_LIBELLE      37742 non-null  object
+ 11  ville_CAN          34865 non-null  object
+ 12  ville_COMPARENT    2777 non-null   float64
+ 13  ville_dateAdded    37742 non-null  object
+ 14  ville_dateUpdated  37742 non-null  object
+dtypes: float64(2), int64(2), object(11)
+memory usage: 4.3+ MB
